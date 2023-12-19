@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "https://dl.eventecole.com/static/css/main.ea3b33aa.css",
+    "main.js": "https://dl.eventecole.com/static/js/main.43ed652e.js",
+    "static/js/787.a462ad44.chunk.js": "https://dl.eventecole.com/static/js/787.a462ad44.chunk.js",
+    "index.html": "https://dl.eventecole.com/index.html",
+    "static/media/logo.svg": "https://dl.eventecole.com/static/media/logo.b7b9a5eb334aee15d90a4f882c0fca47.svg",
+    "main.ea3b33aa.css.map": "https://dl.eventecole.com/static/css/main.ea3b33aa.css.map",
+    "main.43ed652e.js.map": "https://dl.eventecole.com/static/js/main.43ed652e.js.map",
+    "787.a462ad44.chunk.js.map": "https://dl.eventecole.com/static/js/787.a462ad44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea3b33aa.css",
+    "static/js/main.43ed652e.js"
+  ]
+}
