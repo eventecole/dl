@@ -121,7 +121,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}dlsite.json`)
+    fetch(`${process.env.PUBLIC_URL}dlsite.json?k=1`)
       .then((resp) => resp.json())
       .then((_d) => setData(_d ?? []))
       .finally(() => setLoading(false));
