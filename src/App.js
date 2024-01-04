@@ -121,7 +121,11 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}dlsite.json?k=1`)
+    fetch(
+      `${process.env.PUBLIC_URL}dlsite.json?k=${Math.round(
+        Math.random() * 1000
+      )}`
+    )
       .then((resp) => resp.json())
       .then((_d) => setData(_d ?? []))
       .finally(() => setLoading(false));
@@ -165,7 +169,7 @@ function App() {
               alignItems: "center",
             }}
           >
-            <Typography variant="h6">사전입주행사</Typography>
+            <Typography variant="h6">입주자 사전방문 행사</Typography>
             <Typography variant="body2">통합시스템</Typography>
             <Button
               sx={{ borderRadius: 50, mt: 4, color: "#ffffff" }}
